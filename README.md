@@ -120,7 +120,7 @@ Caso o recurso finalize com exit code 1, ao executa o comando 'terraform apply' 
 recurso. Para que isso funcione, o script local ou remoto precisa encerrar a execução com exit code 0 em caso de processamento
 realizado com sucesso, ou finalizar com exit code 1 em caso de falha.
 
-Para simular esse comportamento, podemos forçar um erro de sintaxe de SQL do Hive(HQL).
+Para simular esse comportamento, podemos forçar um erro de sintaxe do SQL usado para criar a tabela no Hive.
 
 
 
