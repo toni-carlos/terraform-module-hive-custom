@@ -118,7 +118,7 @@ o Terraform null_resource espera que o recurso finalize o processamento com exit
 arquivo terraform.tfstate, e dessa forma,  evitar que o mesmo recurso sejá provisionado novamente sem ter alteração. 
 Caso o recurso finalize com exit code 1, ao executa o comando 'terraform apply' o terraform tentará provisionar o mesmo
 recurso. Para que isso funcione, o script local ou remoto precisa encerrar a execução com exit code 0 em caso de processamento
-realizado com sucesso, ou finalizar com exit code 1 em caso falha.
+realizado com sucesso, ou finalizar com exit code 1 em caso de falha.
 
 Para simular esse comportamento, podemos forçar um erro de sintaxe de SQL do Hive(HQL).
 
