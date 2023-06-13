@@ -81,7 +81,7 @@ Vou simular a criação de um database(ga8) e uma tabela(usuario).
 
       ```$ terraform init```
 
-   - Para identificar que um novo recurso para a tabela foi criado.
+   - Para identificar que um novo recurso foi criado para a tabela ga8.usuario.
 
       ```$ terraform plan```
 
@@ -104,7 +104,7 @@ Vou simular a criação de um database(ga8) e uma tabela(usuario).
 
     ![alt arquitetura](images/tbl_ga8_usuario.png)
 
-## Executando 'terraform apply' sem alteração ou criação de uma novo recurso.
+## Executando 'terraform apply' sem alteração ou criação de um novo recurso.
 
 Como garantia o Terraform null_resource usa o arquivo terraform.tfstate para gerenciar os recursos que já foram provisionados.
 Dessa forma, ao executar o comando 'terraform apply' sem alterar ou criar um novo recurso, o Terraform null_resource
